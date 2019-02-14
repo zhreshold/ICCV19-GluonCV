@@ -23,6 +23,7 @@ c.MarkdownExporter.template_file = 'jekyll'
 # by default this saves all images to a directory 'images' in the root of the blog directory
 def path2support(path):
     """Turn a file path into a URL"""
+    print('path2support is called')
     return '{{ BASE_PATH }}/images/' + os.path.basename(path)
 
 c.MarkdownExporter.filters = {'path2support': path2support}
