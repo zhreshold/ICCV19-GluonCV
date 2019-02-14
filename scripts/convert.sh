@@ -4,7 +4,7 @@
 # [~/gitrepos/dkmehrmann.github.io/_ipynb]$ ../scripts/convert.sh google_maps.ipynb 
 # 
 
-BUILD_DIR="/Users/hzaws/git/ICCV19-GluonCV/01_basics/"
+BUILD_DIR=echo $PWD
 POST_DIR="/Users/hzaws/git/ICCV19-GluonCV/_posts/"
 
 # use nbconvert on the file
