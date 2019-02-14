@@ -1,0 +1,39 @@
+<!--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ * Created by: Hang Zhang
+ * ECE Department, Rutgers University
+ * Email: zhang.hang@rutgers.edu
+ * Copyright (c) 2016
+ *
+ * Free to reuse and distribute this software for research or 
+ * non-profit purpose, subject to the following conditions:
+ *  1. The code must retain the above copyright notice, this list of
+ *     conditions.
+ *  2. Original authors' names are not deleted.
+ *  3. The authors' names are not used to endorse or promote products
+ *      derived from this software 
+ *+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-->
+<!DOCTYPE html>
+<html>
+
+{% include header.html %}
+
+  <body>
+
+{% include nav.html %}
+
+    <div style="max-width: 900px; padding-top: 40px;" class="container">
+      {{ content }}   
+        <div>
+            <p></p>
+            <a href="http://www.easycounter.com/">
+                <img src="https://www.easycounter.com/counter.php?zhanghang1989" border="0" alt="HTML Counter">
+            </a>
+            <i>unique visitors since May 2014</i><br>
+            <p><br></p>
+        </div>
+    </div>
+        
+    {% include analytics.html %}
+  </body>
+</html>

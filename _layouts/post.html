@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<article class="post">
+  <h1>{{ page.title }}</h1>
+
+  <div class="entry">
+    {{ content }}
+  </div>
+
+  <div class="date">
+    <i>Written by <a href="http://hangzh.com/">Hang Zhang </a> on {{ page.date | date: "%B %e, %Y" }}</i><br>
+  </div>
+    <hr>
+
+    {% include disqus.html %}
+</article>

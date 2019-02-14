@@ -1,0 +1,239 @@
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ * Created by: Hang Zhang
+ * ECE Department, Rutgers University
+ * Email: zhang.hang@rutgers.edu
+ * Copyright (c) 2016
+ *
+ * Feel free to reuse and distribute this software for research or 
+ * non-profit purpose, subject to the following conditions:
+ *  1. The code must retain the above copyright notice, this list of
+ *     conditions.
+ *  2. Original authors' names are not deleted.
+ *  3. The authors' names are not used to endorse or promote products
+ *      derived from this software 
+ *+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ */
+
+body{
+	font-size: 150%;
+}
+
+.navbar-default {
+		  background-color: #4080bf;
+		  border-color: #84c515;
+		}
+		.navbar-default .navbar-brand {
+		  color: #ecf0f1;
+		}
+		.navbar-default .navbar-brand:hover,
+		.navbar-default .navbar-brand:focus {
+		  color: #240505;
+		}
+		.navbar-default .navbar-text {
+		  color: #ecf0f1;
+		}
+		.navbar-default .navbar-nav > li > a {
+		  color: #ecf0f1;
+		}
+		.navbar-default .navbar-nav > li > a:hover,
+		.navbar-default .navbar-nav > li > a:focus {
+		  color: #240505;
+		}
+		.navbar-default .navbar-nav > li > .dropdown-menu {
+		  background-color: #4864f2;
+		}
+		.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+		  color: #ecf0f1;
+		}
+		.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+		.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+		  color: #240505;
+		  background-color: #84c515;
+		}
+		.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+		  background-color: #84c515;
+		}
+		.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+		.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+		.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+		  color: #240505;
+		  background-color: #84c515;
+		}
+		.navbar-default .navbar-nav > .active > a,
+		.navbar-default .navbar-nav > .active > a:hover,
+		.navbar-default .navbar-nav > .active > a:focus {
+		  color: #240505;
+		  background-color: #84c515;
+		}
+		.navbar-default .navbar-nav > .open > a,
+		.navbar-default .navbar-nav > .open > a:hover,
+		.navbar-default .navbar-nav > .open > a:focus {
+		  color: #240505;
+		  background-color: #84c515;
+		}
+		.navbar-default .navbar-toggle {
+		  border-color: #84c515;
+		}
+		.navbar-default .navbar-toggle:hover,
+		.navbar-default .navbar-toggle:focus {
+		  background-color: #84c515;
+		}
+		.navbar-default .navbar-toggle .icon-bar {
+		  background-color: #ecf0f1;
+		}
+		.navbar-default .navbar-collapse,
+		.navbar-default .navbar-form {
+		  border-color: #ecf0f1;
+		}
+		.navbar-default .navbar-link {
+		  color: #ecf0f1;
+		}
+		.navbar-default .navbar-link:hover {
+		  color: #240505;
+		}
+		.navbar-default .container{
+			max-width: 900px;
+		}
+
+		@media (max-width: 767px) {
+		  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+			color: #ecf0f1;
+		  }
+		  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+		  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+			color: #240505;
+		  }
+		  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+		  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+		  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+			color: #240505;
+			background-color: #84c515;
+		  }
+		}
+		
+		
+		/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+		.row.content {height: 450px}
+		
+		/* Set gray background color and 100% height */
+		.sidenav {
+		  padding-top: 20px;
+		  background-color: #f1f1f1;
+		  height: 100%;
+		}
+		
+		/* Set black background color, white text and some padding */
+		footer {
+		  background-color: #4080bf;
+		  color: #ecf0f1;
+		  padding: 15px;
+		}
+		
+		/* On small screens, set height to 'auto' for sidenav and grid */
+		@media screen and (max-width: 767px) {
+		  .sidenav {
+			height: auto;
+			padding: 15px;
+		  }
+		  .row.content {height:auto;}
+		}
+
+		img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+/* button */
+kbd {
+  background-color: #4080bf;  
+	border-color: #84c515;
+	color: #ecf0f1;
+}
+
+/* News */
+.news span{
+	color:red;
+}
+
+/* Software */
+.tg  {
+	border-collapse:collapse;
+	border-spacing:0;
+	border-color:#999;
+}
+.tg td{
+	font-family:Arial, sans-serif;
+	font-size:14px;
+	padding:10px 5px;
+	border-style:solid;
+	border-width:1px;
+	overflow:hidden;
+	word-break:normal;
+	border-color:#999;
+	color:#444;
+	background-color:#F7FDFA;
+}
+.tg th{
+	font-family:Arial, sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	padding:10px 5px;
+	border-style:solid;
+	border-width:1px;
+	overflow:hidden;
+	word-break:normal;
+	border-color:#999;
+	color:#fff;
+	background-color: #4080bf;
+}
+.tg .tg-yw4l{
+	vertical-align:top
+}
+
+/* Publications */
+.tp heading {
+	font-family: 'Lato', Verdana, Helvetica, sans-serif;
+	font-size: 15px;
+  font-weight: 500
+}
+.tp body,td,th {        
+	font-family: 'Lato', Verdana, Helvetica, sans-serif;      
+	font-size: 15px
+}
+.tp strong {
+	font-family: 'Lato', Verdana, Helvetica, sans-serif;
+	font-size: 14px
+}
+.tp strongred {
+	font-family: 'Lato', Verdana, Helvetica, sans-serif;
+	color: 'red'; 
+	font-size: 14px
+}
+/* Horizontal line for blog */
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+/* button deprecated */
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+		padding: 0px 6px;
+    text-decoration: none;
+    color: #4080bf;
+}
+
+/* bolded red for oral or spotlight */
+span.bold-red {
+    color: red;
+    font-weight: bold;
+}
