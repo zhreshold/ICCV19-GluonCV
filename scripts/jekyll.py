@@ -15,7 +15,7 @@ for arg in sys.argv:
 
 c = get_config()
 c.NbConvertApp.export_format = 'markdown'
-c.MarkdownExporter.template_path = ['/home/andrew/gitrepos/dkmehrmann.github.io/scripts'] # point this to your jekyll template file
+c.MarkdownExporter.template_path = ['/Users/hzaws/git/ICCV19-GluonCV/scripts'] # point this to your jekyll template file
 c.MarkdownExporter.template_file = 'jekyll'
 #c.Application.verbose_crash=True
 
@@ -29,4 +29,4 @@ c.MarkdownExporter.filters = {'path2support': path2support}
 
 if f:
     c.NbConvertApp.output_base = f.lower().replace(' ', '-')
-    c.FilesWriter.build_directory = '/home/andrew/gitrepos/dkmehrmann.github.io/_ipynb' # point this to your build directory
+    c.FilesWriter.build_directory = '/Users/hzaws/git/ICCV19-GluonCV/_ipynb' # point this to your build directory

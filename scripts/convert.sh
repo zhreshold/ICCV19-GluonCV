@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # example use:
-# [~/gitrepos/dkmehrmann.github.io/_ipynb]$ ../scripts/convert.sh google_maps.ipynb 
+# [~/git/xx.github.io/_ipynb]$ ../scripts/convert.sh mynotebook.ipynb 
 # 
 
 BUILD_DIR=echo $PWD
