@@ -1,7 +1,10 @@
 ---
 layout: post
-
+title: Object Detection
 ---
+
+## Configuration
+
 ```python
 # !pip install mxnet-cu92 --pre --upgrade
 # !pip install gluoncv --pre

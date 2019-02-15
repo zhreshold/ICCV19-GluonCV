@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ResNet in `gluon`
+title: ResNet in gluon
 ---
 
 In this notebook we are going to:
@@ -8,7 +8,7 @@ In this notebook we are going to:
 1. Implement the popular ResNet18 convolutional neural network in just a few lines of code.
 2. Use a pretrained model to make predictions on a new image.
 
-ResNet is a powerful model that achieves high accuracy on a number computer vision tasks. The main innovation in the development of ResNets was the introduction of *residual connections*. In short, the residual connections change the mappings applied by neural network layers from $h_l = f(h_{1-1})$ (where $f$ is some linear mapping followed by an activation function to $h_l = f(h_{1-1}) + h_{l-1}$. Intuitively, while the easiest function for a normal neural network to learn is to map every vector to the zero vector (by setting all weights to $0$), the easiest mapping for a residual network to learn is the identity function. Another way to think about the benefit of residual networks is that they help with the vanishing gradient problem because the skip connections create shorter paths from the loss to the parameters. 
+ResNet is a powerful model that achieves high accuracy on a number computer vision tasks. The main innovation in the development of ResNets was the introduction of *residual connections*. In short, the residual connections change the mappings applied by neural network layers from $$h_l = f(h_{1-1})$$ (where $$f$$ is some linear mapping followed by an activation function to $$h_l = f(h_{1-1}) + h_{l-1}$$. Intuitively, while the easiest function for a normal neural network to learn is to map every vector to the zero vector (by setting all weights to $$0$$), the easiest mapping for a residual network to learn is the identity function. Another way to think about the benefit of residual networks is that they help with the vanishing gradient problem because the skip connections create shorter paths from the loss to the parameters. 
 
 
 ## ResNet Architecture
