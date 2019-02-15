@@ -110,7 +110,7 @@ plt.show()
 ```
 
 
-![png](SemanticSegmentation_files/SemanticSegmentation_14_0.png)
+![png](http://hangzh.com/ICCV19-GluonCV/images/SemanticSegmentation_files/SemanticSegmentation_14_0.png)
 
 
 Next, let's try a more difficult image.
@@ -127,7 +127,7 @@ plt.show()
 ```
 
 
-![png](SemanticSegmentation_files/SemanticSegmentation_16_0.png)
+![png](http://hangzh.com/ICCV19-GluonCV/images/SemanticSegmentation_files/SemanticSegmentation_16_0.png)
 
 
 The image is larger thus takes a bit more time to predict.
@@ -146,7 +146,7 @@ plt.show()
 ```
 
 
-![png](SemanticSegmentation_files/SemanticSegmentation_18_0.png)
+![png](http://hangzh.com/ICCV19-GluonCV/images/SemanticSegmentation_files/SemanticSegmentation_18_0.png)
 
 
 We merely see anything. This is because the dataset Pascal VOC doesn't have too much labels for the objects in the above image.
@@ -168,7 +168,7 @@ plt.show()
 ```
 
 
-![png](SemanticSegmentation_files/SemanticSegmentation_20_0.png)
+![png](http://hangzh.com/ICCV19-GluonCV/images/SemanticSegmentation_files/SemanticSegmentation_20_0.png)
 
 
 How about an even more difficult one?
@@ -185,7 +185,7 @@ plt.show()
 ```
 
 
-![png](SemanticSegmentation_files/SemanticSegmentation_22_0.png)
+![png](http://hangzh.com/ICCV19-GluonCV/images/SemanticSegmentation_files/SemanticSegmentation_22_0.png)
 
 
 
@@ -202,7 +202,7 @@ plt.show()
 ```
 
 
-![png](SemanticSegmentation_files/SemanticSegmentation_23_0.png)
+![png](http://hangzh.com/ICCV19-GluonCV/images/SemanticSegmentation_files/SemanticSegmentation_23_0.png)
 
 
 Our model `fcn_resnet50_ade` overfits the sky, and is confused by the plant on the wall.
@@ -224,7 +224,7 @@ plt.show()
 ```
 
 
-![png](SemanticSegmentation_files/SemanticSegmentation_25_0.png)
+![png](http://hangzh.com/ICCV19-GluonCV/images/SemanticSegmentation_files/SemanticSegmentation_25_0.png)
 
 
 It is much cleaner. Although it is still a bit confused by the plant on the wall.
@@ -267,7 +267,7 @@ plt.show()
 ```
 
 
-![png](SemanticSegmentation_files/SemanticSegmentation_30_0.png)
+![png](http://hangzh.com/ICCV19-GluonCV/images/SemanticSegmentation_files/SemanticSegmentation_30_0.png)
 
 
 It is just random noise.
@@ -332,7 +332,7 @@ plt.show()
 ```
 
 
-![png](SemanticSegmentation_files/SemanticSegmentation_36_0.png)
+![png](http://hangzh.com/ICCV19-GluonCV/images/SemanticSegmentation_files/SemanticSegmentation_36_0.png)
 
 
 Next we define the loss, learning rate schedule.
@@ -1323,7 +1323,7 @@ plt.show()
 ```
 
 
-![png](SemanticSegmentation_files/SemanticSegmentation_46_0.png)
+![png](http://hangzh.com/ICCV19-GluonCV/images/SemanticSegmentation_files/SemanticSegmentation_46_0.png)
 
 
 Although this is a small example, it is basically how we train a model on much larger dataset.

@@ -37,7 +37,7 @@ plt.show()
 ```
 
 
-![png](ObjectDetection_files/ObjectDetection_3_0.png)
+![png](http://hangzh.com/ICCV19-GluonCV/images/ObjectDetection_files/ObjectDetection_3_0.png)
 
 
 We predict with image classification algorithm.
@@ -81,7 +81,7 @@ plt.show()
 ```
 
 
-![png](ObjectDetection_files/ObjectDetection_7_0.png)
+![png](http://hangzh.com/ICCV19-GluonCV/images/ObjectDetection_files/ObjectDetection_7_0.png)
 
 
 Next, we download a pretraiend SSD. Here `ssd_512_resnet50_v1_coco` is a combination of:
@@ -110,7 +110,7 @@ plt.show()
 ```
 
 
-![png](ObjectDetection_files/ObjectDetection_11_0.png)
+![png](http://hangzh.com/ICCV19-GluonCV/images/ObjectDetection_files/ObjectDetection_11_0.png)
 
 
 Another example: this is a photo taken in our Palo Alto office during world cup 2018.
@@ -125,7 +125,7 @@ plt.show()
 ```
 
 
-![png](ObjectDetection_files/ObjectDetection_13_0.png)
+![png](http://hangzh.com/ICCV19-GluonCV/images/ObjectDetection_files/ObjectDetection_13_0.png)
 
 
 
@@ -136,7 +136,7 @@ plt.show()
 ```
 
 
-![png](ObjectDetection_files/ObjectDetection_14_0.png)
+![png](http://hangzh.com/ICCV19-GluonCV/images/ObjectDetection_files/ObjectDetection_14_0.png)
 
 
 We can select all boxes containing a `person` count.
@@ -158,7 +158,7 @@ print('There are %d people in this photo.'%(len(ind)))
 ```
 
 
-![png](ObjectDetection_files/ObjectDetection_16_0.png)
+![png](http://hangzh.com/ICCV19-GluonCV/images/ObjectDetection_files/ObjectDetection_16_0.png)
 
 
     There are 33 people in this photo.
@@ -174,7 +174,7 @@ plt.show()
 ```
 
 
-![png](ObjectDetection_files/ObjectDetection_18_0.png)
+![png](http://hangzh.com/ICCV19-GluonCV/images/ObjectDetection_files/ObjectDetection_18_0.png)
 
 
 We can detect the cars, trucks and traffic lights.
@@ -189,7 +189,7 @@ plt.show()
 ```
 
 
-![png](ObjectDetection_files/ObjectDetection_20_0.png)
+![png](http://hangzh.com/ICCV19-GluonCV/images/ObjectDetection_files/ObjectDetection_20_0.png)
 
 
 ## Train your own model to detect Pikachu
@@ -232,7 +232,7 @@ plt.show()
 
 
 
-![png](ObjectDetection_files/ObjectDetection_24_1.png)
+![png](http://hangzh.com/ICCV19-GluonCV/images/ObjectDetection_files/ObjectDetection_24_1.png)
 
 
 Basically we chose some landscape photos and copy an open-sourced Pikachu figure onto the image.
@@ -458,5 +458,5 @@ plt.show()
 ```
 
 
-![png](ObjectDetection_files/ObjectDetection_36_0.png)
+![png](http://hangzh.com/ICCV19-GluonCV/images/ObjectDetection_files/ObjectDetection_36_0.png)
 

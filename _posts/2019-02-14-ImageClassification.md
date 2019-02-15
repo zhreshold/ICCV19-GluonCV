@@ -47,7 +47,7 @@ plt.imshow(img.asnumpy())
 
 
 
-![png](ImageClassification_files/ImageClassification_4_1.png)
+![png](http://hangzh.com/ICCV19-GluonCV/images/ImageClassification_files/ImageClassification_4_1.png)
 
 
 Choose a good model, load pre-trained weights with `pretrained=True`.
@@ -84,7 +84,7 @@ plt.imshow(np.transpose(transformed_img[0].asnumpy(), (1, 2, 0)))
 
 
 
-![png](ImageClassification_files/ImageClassification_10_2.png)
+![png](http://hangzh.com/ICCV19-GluonCV/images/ImageClassification_files/ImageClassification_10_2.png)
 
 
 The transformation does the following two things:

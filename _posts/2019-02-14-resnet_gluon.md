@@ -13,7 +13,7 @@ ResNet is a powerful model that achieves high accuracy on a number computer visi
 
 ## ResNet Architecture
 
-<img src="resnet34-landscape.png">
+<img src="http://hangzh.com/ICCV19-GluonCV/images/resnet34-landscape.png">
 
 
 
@@ -31,7 +31,7 @@ Where each stage is a block following the architecture described below.
 
 ###### Each stage is built with repeated basic building blocks with residual connection.
 
-<img src="resnet-basicblock.png" width=512>
+<img src="http://hangzh.com/ICCV19-GluonCV/images/resnet-basicblock.png" width=512>
 
 A basic block has the following components:
 
@@ -159,7 +159,7 @@ plt.show()
 ```
 
 
-![png](resnet_gluon_files/resnet_gluon_21_0.png)
+![png](http://hangzh.com/ICCV19-GluonCV/images/resnet_gluon_files/resnet_gluon_21_0.png)
 
 
 We need to first process the image with:
