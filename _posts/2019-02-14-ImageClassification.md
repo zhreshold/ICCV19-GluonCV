@@ -1,7 +1,7 @@
-
-# Image Classification with GluonCV
-date: Feb 14, 2019
-title: "Image Classification with GluonCV"
+---
+layout: post
+title: Image Classification with GluonCV
+---
 
 
 ## Configuration

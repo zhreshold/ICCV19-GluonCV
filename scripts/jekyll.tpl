@@ -4,10 +4,15 @@
 ---
 layout: post
 title: "{{resources['metadata']['name']}}"
-categories: blog
-author: Andrew Mehrmann
+tags:
+    - python
+    - notebook
 ---
 {%- endblock header -%}
+
+{% block in_prompt %}
+**In [{{ cell.execution_count }}]:**
+{% endblock in_prompt %}
 
 {% block input %}
 {{ '{% highlight python %}' }}
