@@ -4,9 +4,6 @@
 ---
 layout: post
 title: "{{resources['metadata']['name']}}"
-tags:
-    - python
-    - notebook
 ---
 {%- endblock header -%}
 

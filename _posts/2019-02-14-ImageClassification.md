@@ -8,37 +8,6 @@ title: Image Classification with GluonCV
 
 Install GluonCV through `pip`
 
-
-```python
-!pip install gluoncv
-```
-
-    Requirement already satisfied: gluoncv in /home/ec2-user/anaconda3/envs/mxnet_p36/lib/python3.6/site-packages (0.3.0)
-    Requirement already satisfied: tqdm in /home/ec2-user/anaconda3/envs/mxnet_p36/lib/python3.6/site-packages (from gluoncv) (4.28.1)
-    Requirement already satisfied: scipy in /home/ec2-user/anaconda3/envs/mxnet_p36/lib/python3.6/site-packages (from gluoncv) (1.1.0)
-    Requirement already satisfied: requests in /home/ec2-user/anaconda3/envs/mxnet_p36/lib/python3.6/site-packages (from gluoncv) (2.20.1)
-    Requirement already satisfied: numpy in /home/ec2-user/anaconda3/envs/mxnet_p36/lib/python3.6/site-packages (from gluoncv) (1.14.5)
-    Requirement already satisfied: Pillow in /home/ec2-user/anaconda3/envs/mxnet_p36/lib/python3.6/site-packages (from gluoncv) (5.0.0)
-    Requirement already satisfied: matplotlib in /home/ec2-user/anaconda3/envs/mxnet_p36/lib/python3.6/site-packages (from gluoncv) (2.2.2)
-    Requirement already satisfied: chardet<3.1.0,>=3.0.2 in /home/ec2-user/anaconda3/envs/mxnet_p36/lib/python3.6/site-packages (from requests->gluoncv) (3.0.4)
-    Requirement already satisfied: idna<2.8,>=2.5 in /home/ec2-user/anaconda3/envs/mxnet_p36/lib/python3.6/site-packages (from requests->gluoncv) (2.6)
-    Requirement already satisfied: urllib3<1.25,>=1.21.1 in /home/ec2-user/anaconda3/envs/mxnet_p36/lib/python3.6/site-packages (from requests->gluoncv) (1.22)
-    Requirement already satisfied: certifi>=2017.4.17 in /home/ec2-user/anaconda3/envs/mxnet_p36/lib/python3.6/site-packages (from requests->gluoncv) (2018.8.24)
-    Requirement already satisfied: cycler>=0.10 in /home/ec2-user/anaconda3/envs/mxnet_p36/lib/python3.6/site-packages (from matplotlib->gluoncv) (0.10.0)
-    Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /home/ec2-user/anaconda3/envs/mxnet_p36/lib/python3.6/site-packages (from matplotlib->gluoncv) (2.2.0)
-    Requirement already satisfied: python-dateutil>=2.1 in /home/ec2-user/anaconda3/envs/mxnet_p36/lib/python3.6/site-packages (from matplotlib->gluoncv) (2.7.3)
-    Requirement already satisfied: pytz in /home/ec2-user/anaconda3/envs/mxnet_p36/lib/python3.6/site-packages (from matplotlib->gluoncv) (2018.4)
-    Requirement already satisfied: six>=1.10 in /home/ec2-user/anaconda3/envs/mxnet_p36/lib/python3.6/site-packages (from matplotlib->gluoncv) (1.11.0)
-    Requirement already satisfied: kiwisolver>=1.0.1 in /home/ec2-user/anaconda3/envs/mxnet_p36/lib/python3.6/site-packages (from matplotlib->gluoncv) (1.0.1)
-    Requirement already satisfied: setuptools in /home/ec2-user/anaconda3/envs/mxnet_p36/lib/python3.6/site-packages (from kiwisolver>=1.0.1->matplotlib->gluoncv) (39.1.0)
-    [31mmxnet-model-server 0.4 requires mxnet-mkl>=1.2, which is not installed.[0m
-    [31mmxnet-model-server 0.4 has requirement onnx==1.1.1, but you'll have onnx 1.2.1 which is incompatible.[0m
-    [31mmxnet-cu90mkl 1.3.0.post0 has requirement requests<2.19.0,>=2.18.4, but you'll have requests 2.20.1 which is incompatible.[0m
-    [31mkeras 2.2.2 has requirement keras-preprocessing==1.0.2, but you'll have keras-preprocessing 1.0.1 which is incompatible.[0m
-    [33mYou are using pip version 10.0.1, however version 18.1 is available.
-    You should consider upgrading via the 'pip install --upgrade pip' command.[0m
-
-
 Import necessary modules
 
 
@@ -78,7 +47,7 @@ plt.imshow(img.asnumpy())
 
 
 
-![png](ImageClassification_files/ImageClassification_5_1.png)
+![png](ImageClassification_files/ImageClassification_4_1.png)
 
 
 Choose a good model, load pre-trained weights with `pretrained=True`.
@@ -115,7 +84,7 @@ plt.imshow(np.transpose(transformed_img[0].asnumpy(), (1, 2, 0)))
 
 
 
-![png](ImageClassification_files/ImageClassification_11_2.png)
+![png](ImageClassification_files/ImageClassification_10_2.png)
 
 
 The transformation does the following two things:

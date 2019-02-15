@@ -1,5 +1,7 @@
-
-# ResNet in `gluon`
+---
+layout: post
+title: ResNet in `gluon`
+---
 
 In this notebook we are going to:
 

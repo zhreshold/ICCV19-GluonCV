@@ -15,7 +15,7 @@ for arg in sys.argv:
 
 c = get_config()
 c.NbConvertApp.export_format = 'markdown'
-c.MarkdownExporter.template_path = ['/home/tdos/.ipython/templates'] # point this to your jekyll template file
+c.MarkdownExporter.template_path = ['/Users/hzaws/git/ICCV19-GluonCV/scripts'] # point this to your jekyll template file
 c.MarkdownExporter.template_file = 'jekyll'
 #c.Application.verbose_crash=True
 
@@ -23,10 +23,11 @@ c.MarkdownExporter.template_file = 'jekyll'
 # by default this saves all images to a directory 'images' in the root of the blog directory
 def path2support(path):
     """Turn a file path into a URL"""
+    print('path2support is called')
     return '{{ BASE_PATH }}/images/' + os.path.basename(path)
 
 c.MarkdownExporter.filters = {'path2support': path2support}
 
 if f:
     c.NbConvertApp.output_base = f.lower().replace(' ', '-')
-    c.FilesWriter.build_directory = '/home/tdos/git/tgarc.github.io/notebooks' # point this to your build directory
+    c.FilesWriter.build_directory = '/Users/hzaws/git/ICCV19-GluonCV/_ipynb' # point this to your build directory
