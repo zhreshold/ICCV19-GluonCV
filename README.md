@@ -15,13 +15,13 @@ Agenda
 | Time        | Title                                                                  | Slides    | Notebooks  |
 |-------------|------------------------------------------------------------------------|-----------|------------|
 | 8:30-9:15   | Welcome and AWS Setup                                                  | [link][0] | [link][01] |
-| 9:15-10:00  | Deep Learning and Gluon Basics (NDArray, AutoGrad, Libraries)          | [link][ ] | [link][11],[link][12] |
+| 9:15-10:00  | Deep Learning and Gluon Basics (NDArray, AutoGrad, Libraries)          |           | [link][11],[link][12] |
 | 10:00-10:30 | Coffe Break                                                            |           |            |
 | 10:30-11:45 | Bags of Tricks for Image Classification (ResNet, MobileNet, Inception) | [link][2] | [link][21] |
 | 12:00-2:00  | Lunch and Break                                                        |           |            |
 | 2:00-3:45   | Understanding Object Detectors (SSD, Faster RCNN, YOLOV3)              | [link][3] | [link][31] |
 | 3:45-5:00   | Semantic segmentation algorithms (FCN, PSPNet, DeepLabV3)              | [link][4] | [link][41] |
-| 5:00-5:30   | Painless Deployment (C++, TVM)                                         | [link][ ] | [link][  ] |
+| 5:00-5:30   | Painless Deployment (C++, TVM)                                         |           | [link][51],[link][52] |
 | 5:30-5:45   | Q&A and Closing                                                        |           |            |
 
 
@@ -36,3 +36,5 @@ Agenda
 [21]: https://github.com/zhanghang1989/ICCV19-GluonCV/blob/master/02_classification/ImageClassification.ipynb
 [31]: https://github.com/zhanghang1989/ICCV19-GluonCV/blob/master/03_detection/ObjectDetection.ipynb
 [41]: https://github.com/zhanghang1989/ICCV19-GluonCV/blob/master/04_segmentation/SemanticSegmentation.ipynb
+[51]: https://github.com/zhanghang1989/ICCV19-GluonCV/blob/master/05_deployment/export_network.ipynb
+[52]: https://github.com/zhanghang1989/ICCV19-GluonCV/blob/master/05_deployment/cpp_inference.ipynb
