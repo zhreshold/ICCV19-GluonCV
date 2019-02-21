@@ -6,7 +6,7 @@
 
 Abstract
 --------
-Deep Learning has become the de facto standard algorithm in computer vision. There are a surge amount of approaches being proposed every year for different tasks.  Reproducing the complete system in every single detail can be problematic and time-consuming, especially for the beginners. Existing open-source implementations are typically not well-maintained and the code can be easily broken by the rapid updates of the deep learning frameworks. In this tutorial, we will walk through the technical details of the state-of-the-art (SOTA) algorithms in major computer vision tasks, and we also provide the code implementations and hands-on tutorials to reproduce the large-scale training inthis tutorial.
+Deep Learning has become the de facto standard algorithm in computer vision. There are a surge amount of approaches being proposed every year for different tasks.  Reproducing the complete system in every single detail can be problematic and time-consuming, especially for the beginners. Existing open-source implementations are typically not well-maintained and the code can be easily broken by the rapid updates of the deep learning frameworks. In this tutorial, we will walk through the technical details of the state-of-the-art (SOTA) algorithms in major computer vision tasks, and we also provide the code implementations and hands-on tutorials to reproduce the large-scale training in this tutorial.
 
 Agenda
 ------
