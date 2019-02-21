@@ -14,15 +14,13 @@ Agenda
 
 | Time        | Title                                                                  | Slides    | Notebooks  |
 |-------------|------------------------------------------------------------------------|-----------|------------|
-| 8:30-9:15   | Welcome and AWS Setup                                                  | [link][0] | [link][01] |
-| 9:15-10:00  | Deep Learning and Gluon Basics (NDArray, AutoGrad, Libraries)          |           | [link][11],[link][12] |
-| 10:00-10:30 | Coffe Break                                                            |           |            |
-| 10:30-11:45 | Bags of Tricks for Image Classification (ResNet, MobileNet, Inception) | [link][2] | [link][21] |
-| 12:00-2:00  | Lunch and Break                                                        |           |            |
-| 2:00-3:45   | Understanding Object Detectors (SSD, Faster RCNN, YOLOV3)              | [link][3] | [link][31] |
-| 3:45-5:00   | Semantic segmentation algorithms (FCN, PSPNet, DeepLabV3)              | [link][4] | [link][41] |
-| 5:00-5:30   | Painless Deployment (C++, TVM)                                         |           | [link][51],[link][52] |
-| 5:30-5:45   | Q&A and Closing                                                        |           |            |
+| 8:00-8:15   | Welcome and AWS Setup                                                  | [link][0] | [link][01] |
+| 8:15-8:30   | Deep Learning and Gluon Basics (NDArray, AutoGrad, Libraries)          |           | [link][11],[link][12] |
+| 8:30-9:30   | Bags of Tricks for Image Classification (ResNet, MobileNet, Inception) | [link][2] | [link][21] |
+| 9:30-10:30  | Understanding Object Detectors (SSD, Faster RCNN, YOLOV3)              | [link][3] | [link][31] |
+| 10:30-11:30 | Semantic segmentation algorithms (FCN, PSPNet, DeepLabV3)              | [link][4] | [link][41] |
+| 11:30-12:00 | Painless Deployment (C++, TVM)                                         |           | [link][51],[link][52] |
+| 12:00-12:15 | Q&A and Closing                                                        |           |            |
 
 
 [0]: https://github.com/zhanghang1989/ICCV19-GluonCV/blob/master/slides/GluonCV.pptx
