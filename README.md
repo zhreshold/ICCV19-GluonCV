@@ -1,4 +1,4 @@
-# ICCV19 Seoul Tutorial : Dive Deep into Deep Learning Algorithms with GluonCV Toolkit (Proposing)
+## ICCV19 Seoul Tutorial : Everything You Need to Know to Reproduce SOTA Deep Learning Models from Hands-on Tutorial (Proposing)
 
 <h4>Time: TBD</h4>
 <h4>Location: TBD</h4>
