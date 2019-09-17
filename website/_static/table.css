@@ -1,0 +1,35 @@
+table {
+    width: 95%;
+}
+tr td:nth-child(1) {
+    width: 6em;
+}
+tr td:nth-child(3) {
+    width: 6em;
+}
+tr td:nth-child(4) {
+    width: 6em;
+}
+tr.odd td {
+    color: white;
+    background-color: #6690a7;
+}
+tr.even td {
+    color: black;
+    background-color: #cfd8dc;
+}
+tr.odd td a {
+    color: darkblue;
+}
+tr.even td a {
+    color: darkblue;
+}
+
+@media screen and (max-width: 414px) {
+    tr th:nth-child(4) {
+        display: none;
+    }
+    tr td:nth-child(4) {
+        display: none;
+    }
+}
