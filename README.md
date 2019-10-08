@@ -21,19 +21,26 @@ Agenda
 | Time        | Title                                                                  | Slides    | Notebooks  |
 |-------------|------------------------------------------------------------------------|-----------|------------|
 | 8:00-8:15   | Welcome and AWS Setup(Free instance available)                         | [link][0] | [link][01] |
-| 8:15-8:30   | Deep Learning and Gluon Basics (NDArray, AutoGrad, Libraries)          |           | [link][11],[link][12] |
-| 8:30-9:30   | Bags of Tricks for Image Classification (ResNet, MobileNet, Inception) | [link][2] | [link][21] |
-| 9:30-10:30  | Understanding Object Detectors (SSD, Faster RCNN, YOLOV3)              | [link][3] | [link][31] |
-| 10:30-11:30 | Semantic segmentation algorithms (FCN, PSPNet, DeepLabV3)              | [link][4] | [link][41] |
+| 8:15-8:40   | Introduction to MXNet and GluonCV                                      | [link][1] |            |
+| 8:40-9:00   | Deep Learning and Gluon Basics (NDArray, AutoGrad, Libraries)          |           | [link][11],[link][12] |
+| 9:00-9:30   | Bags of Tricks for Image Classification (ResNet, MobileNet, Inception) | [link][2] | [link][21] |
+| 9:30-10:00  | Understanding Object Detectors (SSD, Faster RCNN, YOLOV3)              | [link][3] | [link][31] |
+| 10:00-10:30 | Semantic segmentation algorithms (FCN, PSPNet, DeepLabV3, VPLR)        | [link][4] | [link][41] |
+| 10:30-11:00 | Pose Estimation(SimplePose, AlphaPose)                                 |           |            |
+| 11:00-11:30 | Action Recognition(TSN, I3D)                                           |           |            |
 | 11:30-12:00 | Painless Deployment (C++, TVM)                                         |           | [link][51],[link][52] |
 | 12:00-12:15 | Q&A and Closing                                                        |           |            |
 
 Q&A
 ---
 
-TODO
+Q1: How do I setup the environments for this tutorial?
+
+A1: There will be all-in-one AWS SageMaker notebooks available for all local attendees, you need to bring your laptop and have a working email to access the notebooks.
+
 
 [0]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/slides/GluonCV.pptx
+[1]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/slides/MXNet_Overview.pptx
 [2]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/slides/Classification.pptx
 [3]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/slides/Detection.pptx
 [4]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/slides/Segmentation.pptx
@@ -44,5 +51,5 @@ TODO
 [21]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/02_classification/ImageClassification.ipynb
 [31]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/03_detection/ObjectDetection.ipynb
 [41]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/04_segmentation/SemanticSegmentation.ipynb
-[51]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/05_deployment/export_network.ipynb
-[52]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/05_deployment/cpp_inference.ipynb
+[51]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/07_deployment/export_network.ipynb
+[52]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/07_deployment/cpp_inference.ipynb
