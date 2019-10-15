@@ -4,11 +4,10 @@ ICCV 2019 Tutorial: Everything You Need to Know to Reproduce SOTA Deep Learning 
 <h3>Time: Sunday, October 27, 2019. Half Day - AM (0800-1215)<br/>Location: Auditorium, [COEX Convention Center](https://goo.gl/maps/VKDgLyYf8NDC1e4E6)</h3>
 
 <span style="color:grey">Presenter: Zhi Zhang, Sam Skalicky, Muhyun Kim, Jiyang Yang</span><br/>
-<span style="color:grey">Organizers: Hang Zhang, Tong He, Zhi Zhang, Zhongyue Zhang, Haibin Lin, Aston Zhang, Mu Li</span>
 
 
 
-<a href="https://aws.amazon.com/"><img src="_static/aws_logo.png" alt="AWS Icon" height="45"></a> &nbsp; <a href="https://aws.amazon.com/"><img src="_static/amazon_ai.png" alt="AmazonAI Icon" height="58"></a> &nbsp; <a href="https://aws.amazon.com/sagemaker/neo/"><img src="_static/neo.png" alt="Neo Icon" height="58"></a> &nbsp; <a href="https://beta.mxnet.io/"><img src="_static/apache_incubator_logo.png" alt="Apache Incubator Icon" height="39"></a> &nbsp; <a href="https://beta.mxnet.io/"><img src="_static/mxnet_logo_2.png" alt="MXNet Icon" height="39"></a> &nbsp; <a href="https://gluon-nlp.mxnet.io/"><img src="_static/gluon_logo_horizontal_small.png" alt="Gluon Icon" height="42"></a> &nbsp; <a href="http://tvm.ai"><img src="_static/tvm.png" alt="TVM Icon" height="32"></a>
+<a href="https://aws.amazon.com/"><img src="_static/aws_logo.png" alt="AWS Icon" height="45"></a> &nbsp; <a href="https://aws.amazon.com/"><img src="_static/amazon_ai.png" alt="AmazonAI Icon" height="58"></a> &nbsp; <a href="https://aws.amazon.com/sagemaker/neo/"><img src="_static/neo.png" alt="Neo Icon" height="58"></a> &nbsp; <a href="https://http://mxnet.incubator.apache.org/"><img src="_static/apache_incubator_logo.png" alt="Apache Incubator Icon" height="39"></a> &nbsp; <a href="https://http://mxnet.incubator.apache.org/"><img src="_static/mxnet_logo_2.png" alt="MXNet Icon" height="39"></a> &nbsp; <a href="https://gluon-cv.mxnet.io/"><img src="_static/gluon_logo_horizontal_small.png" alt="Gluon Icon" height="42"></a> &nbsp; <a href="http://tvm.ai"><img src="_static/tvm.png" alt="TVM Icon" height="32"></a>
 
 Abstract
 --------
@@ -53,3 +52,9 @@ A1: There will be all-in-one AWS SageMaker notebooks available for all local att
 [41]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/04_segmentation/SemanticSegmentation.ipynb
 [51]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/07_deployment/export_network.ipynb
 [52]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/07_deployment/cpp_inference.ipynb
+
+
+Organizers
+---
+
+<span style="color:grey">Hang Zhang, Tong He, Zhi Zhang, Zhongyue Zhang, Haibin Lin, Aston Zhang, Mu Li</span>
