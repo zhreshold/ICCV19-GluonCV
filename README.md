@@ -19,15 +19,15 @@ Agenda
 
 | Time        | Title                                                                  | Slides    | Notebooks  |
 |-------------|------------------------------------------------------------------------|-----------|------------|
-| 8:00-8:15   | Welcome and AWS Setup(Free instance available)                         | [link][0] | [link][01] |
-| 8:15-8:40   | Introduction to MXNet and GluonCV                                      | [link][1] |            |
+| 8:00-8:15   | Welcome and AWS Setup(Free instance available)                         |           | [link][01] |
+| 8:15-8:40   | Introduction to MXNet and GluonCV                                      | [link][1][link][0] |            |
 | 8:40-9:00   | Deep Learning and Gluon Basics (NDArray, AutoGrad, Libraries)          |           | [link][11],[link][12] |
 | 9:00-9:30   | Bags of Tricks for Image Classification (ResNet, MobileNet, Inception) | [link][2] | [link][21] |
 | 9:30-10:00  | Understanding Object Detectors (SSD, Faster RCNN, YOLOV3)              | [link][3] | [link][31] |
 | 10:00-10:30 | Semantic segmentation algorithms (FCN, PSPNet, DeepLabV3, VPLR)        | [link][4] | [link][41] |
 | 10:30-11:00 | Pose Estimation(SimplePose, AlphaPose)                                 |           |            |
 | 11:00-11:30 | Action Recognition(TSN, I3D)                                           |           |            |
-| 11:30-12:00 | Painless Deployment (C++, TVM)                                         |           | [link][51],[link][52] |
+| 11:30-12:00 | Painless Deployment (C++, TVM)                                         | [link][5] | [link][51],[link][52] |
 | 12:00-12:15 | Q&A and Closing                                                        |           |            |
 
 Q&A
@@ -38,11 +38,12 @@ Q1: How do I setup the environments for this tutorial?
 A1: There will be all-in-one AWS SageMaker notebooks available for all local attendees, you need to bring your laptop and have a working email to access the notebooks.
 
 
-[0]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/slides/GluonCV.pptx
+[0]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/slides/IntroToGluonCV.pptx
 [1]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/slides/MXNet_Overview.pptx
 [2]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/slides/Classification.pptx
-[3]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/slides/Detection.pptx
+[3]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/slides/ObjectDetection.pptx
 [4]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/slides/Segmentation.pptx
+[5]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/slides/Deployment.pptx
 
 [01]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/00_setup/use_aws.ipynb
 [11]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/01_basics/autograd.ipynb
