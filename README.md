@@ -20,7 +20,7 @@ Agenda
 | Time        | Title                                                                  | Slides    | Notebooks  |
 |-------------|------------------------------------------------------------------------|-----------|------------|
 | 8:00-8:15   | Welcome and AWS Setup(Free instance available)                         |           | [link][01] |
-| 8:15-8:40   | Introduction to MXNet and GluonCV                                      | [link][1][link][0] |            |
+| 8:15-8:40   | Introduction to MXNet and GluonCV                                      | [link][1],[link][0] |            |
 | 8:40-9:00   | Deep Learning and Gluon Basics (NDArray, AutoGrad, Libraries)          |           | [link][11],[link][12] |
 | 9:00-9:30   | Bags of Tricks for Image Classification (ResNet, MobileNet, Inception) | [link][2] | [link][21] |
 | 9:30-10:00  | Understanding Object Detectors (SSD, Faster RCNN, YOLOV3)              | [link][3] | [link][31] |
