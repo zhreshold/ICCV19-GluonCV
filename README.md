@@ -3,7 +3,7 @@ ICCV 2019 Tutorial: Everything You Need to Know to Reproduce SOTA Deep Learning 
 
 <h3>Time: Sunday, October 27, 2019. Half Day - AM (0800-1215)<br/>Location: Auditorium, [COEX Convention Center](https://goo.gl/maps/VKDgLyYf8NDC1e4E6)</h3>
 
-<span style="color:grey">Presenter: Zhi Zhang, Sam Skalicky, Muhyun Kim, Jiyang Yang</span><br/>
+<span style="color:grey">Presenter: Zhi Zhang, Sam Skalicky, Muhyun Kim, Jiyang Kang</span><br/>
 
 
 
@@ -22,8 +22,8 @@ Agenda
 | 8:00-8:15   | Welcome and AWS Setup(Free instance available)                         |           | [link][01] |
 | 8:15-8:40   | Introduction to MXNet and GluonCV                                      | [link][1],[link][0] |            |
 | 8:40-9:00   | Deep Learning and Gluon Basics (NDArray, AutoGrad, Libraries)          |           | [link][11],[link][12] |
-| 9:00-9:30   | Bags of Tricks for Image Classification (ResNet, MobileNet, Inception) | [link][2] | [link][21] |
-| 9:30-10:00  | Understanding Object Detectors (SSD, Faster RCNN, YOLOV3)              | [link][3] | [link][31] |
+| 9:00-9:30   | Bag of Tricks for Image Classification (ResNet, MobileNet, Inception)  | [link][2] | [link][21] |
+| 9:30-10:00  | Bag of Freebies for Object Detectors (SSD, Faster RCNN, YOLOV3)        | [link][3] | [link][31] |
 | 10:00-10:30 | Semantic segmentation algorithms (FCN, PSPNet, DeepLabV3, VPLR)        | [link][4] | [link][41] |
 | 10:30-11:00 | Pose Estimation(SimplePose, AlphaPose)                                 |           |            |
 | 11:00-11:30 | Action Recognition(TSN, I3D)                                           |           |            |
