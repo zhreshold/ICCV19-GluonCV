@@ -4,6 +4,8 @@ __pycache__/
 *$py.class
 index.html
 ~$*.pptx
+*.idx
+*.rec
 
 # C extensions
 *.so

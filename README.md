@@ -40,7 +40,7 @@ A1: There will be all-in-one AWS SageMaker notebooks available for all local att
 
 [0]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/slides/IntroToGluonCV.pptx
 [1]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/slides/MXNet_Overview.pptx
-[2]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/slides/Classification.pptx
+[2]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/slides/ImageClassification.pptx
 [3]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/slides/ObjectDetection.pptx
 [4]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/slides/Segmentation.pptx
 [5]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/slides/Deployment.pptx
