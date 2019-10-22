@@ -25,7 +25,7 @@ Agenda
 | 9:00-9:30   | Bag of Tricks for Image Classification (ResNet, MobileNet, Inception)  | [link][2] | [link][21] |
 | 9:30-10:00  | Bag of Freebies for Object Detectors (SSD, Faster RCNN, YOLOV3)        | [link][3] | [link][31] |
 | 10:00-10:30 | Semantic segmentation algorithms (FCN, PSPNet, DeepLabV3, VPLR)        | [link][4] | [link][41] |
-| 10:30-11:00 | Pose Estimation(SimplePose, AlphaPose)                                 |           |            |
+| 10:30-11:00 | Pose Estimation(SimplePose, AlphaPose)                                 | [link][6] | [link][61] |
 | 11:00-11:30 | Action Recognition(TSN, I3D)                                           |           |            |
 | 11:30-12:00 | Painless Deployment (C++, TVM)                                         | [link][5] | [link][51],[link][52] |
 | 12:00-12:15 | Q&A and Closing                                                        |           |            |
@@ -44,6 +44,7 @@ A1: There will be all-in-one AWS SageMaker notebooks available for all local att
 [3]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/slides/ObjectDetection.pptx
 [4]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/slides/Segmentation.pptx
 [5]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/slides/Deployment.pptx
+[6]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/slides/PoseEstimation.pptx
 
 [01]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/00_setup/use_aws.ipynb
 [11]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/01_basics/autograd.ipynb
@@ -53,6 +54,7 @@ A1: There will be all-in-one AWS SageMaker notebooks available for all local att
 [41]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/04_segmentation/SemanticSegmentation.ipynb
 [51]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/07_deployment/export_network.ipynb
 [52]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/07_deployment/cpp_inference.ipynb
+[61]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/05_pose/PoseEstimation.ipynb
 
 
 Organizers
