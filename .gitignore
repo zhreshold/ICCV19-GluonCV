@@ -6,6 +6,7 @@ index.html
 ~$*.pptx
 *.idx
 *.rec
+.DS_Store
 
 # C extensions
 *.so
