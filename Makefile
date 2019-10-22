@@ -7,4 +7,4 @@ index.html: README.md _static/head.html
 	echo "</body>" >> index.html
 
 release: index.html
-	aws s3 --profile amazonai-events sync . s3://iccv19.mxnet.io/ --exclude 'slides/*' --exclude '.git*' --exclude 'Makefile' --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers
+	aws s3 --profile amazonai-events sync . s3://iccv19.mxnet.io/ --exclude 'slides/*' --exclude '*.rec' --exclude '*.idx' --exclude '.git*' --exclude 'Makefile' --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers
