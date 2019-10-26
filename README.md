@@ -37,6 +37,9 @@ Q1: How do I setup the environments for this tutorial?
 
 A1: There will be all-in-one AWS SageMaker notebooks available for all local attendees, you need to bring your laptop and have a working email to access the notebooks.
 
+Q2: How do I setup the environment in SageMaker after this tutorial?
+
+A2: You can use [lifetime-config](https://github.com/zhreshold/ICCV19-GluonCV/blob/master/00_setup/sagemaker_lifetime_config.sh) to create sagemaker notebook instance using this lifetime-config. Make sure you have more than 30G disk space for the new notebook instance. 
 
 [0]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/slides/IntroToGluonCV.pptx
 [1]: https://github.com/zhreshold/ICCV19-GluonCV/blob/master/slides/MXNet_Overview.pptx
