@@ -26,11 +26,10 @@ echo "export LD_LIBRARY_PATH=/usr/lib64/llvm6.0/lib:\$LD_LIBRARY_PATH" >> $HOME/
 # Skip if VOC and COCO datasets are not required
 
 echo "#!/bin/bash" > $HOME/get_data.sh
-echo "mkdir -p ~/SageMaker/datasets" >> $HOME/get_data.sh
-echo "wget -c --retry-connrefused --tries=10 -P ~/SageMaker/datasets  https://zhiz-cache.s3.amazonaws.com/voc_coco.zip" >> $HOME/get_data.sh
-echo "cd ~/SageMaker/datasets && unzip voc_coco.zip" >> $HOME/get_data.sh
-echo "ln -s ~/.mxnet/datasets/voc ~/SageMaker/datasets/voc" >> $HOME/get_data.sh
-echo "ln -s ~/.mxnet/datasets/coco ~/SageMaker/datasets/coco" >> $HOME/get_data.sh
+echo "wget -c --retry-connrefused --tries=10 -P ~/SageMaker  https://zhiz-cache.s3.amazonaws.com/voc_coco.zip" >> $HOME/get_data.sh
+echo "cd ~/SageMaker/ && unzip voc_coco.zip" >> $HOME/get_data.sh
+echo "ln -s ~/SageMaker/datasets/VOCdevkit ~/.mxnet/datasets/voc" >> $HOME/get_data.sh
+echo "ln -s ~/SageMaker/datasets/mscoco ~/.mxnet/datasets/coco" >> $HOME/get_data.sh
 
 cd $HOME
 screen -dmS data bash -c 'sleep 1; bash $HOME/get_data.sh'
