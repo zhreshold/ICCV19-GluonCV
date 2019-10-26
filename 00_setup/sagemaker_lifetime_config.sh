@@ -22,6 +22,8 @@ echo "export TVM_NUM_THREADS=4" >> $HOME/.bashrc
 echo "export LD_LIBRARY_PATH=/usr/lib64/llvm6.0/lib:\$LD_LIBRARY_PATH" >> $HOME/.bashrc
 
 
+mkdir -p ~/.mxnet
+mkdir -p ~/.mxnet/datasets
 # Due to 5min limit of SageMaker lifetime config script, we use detached screen to download datasets
 # Skip if VOC and COCO datasets are not required
 
